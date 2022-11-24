@@ -4,7 +4,7 @@ namespace: shaunharrisonfr
 commonLabels:
   app.kubernetes.io/name: "forgerock"
 resources:
-- https://github.com/SecureApiGateway/securebanking-openbanking-uk-gateway/tree/302-remove-kustomize-from-gateway-repo/kustomize/base/securebanking
+- github.com/SecureApiGateway/securebanking-openbanking-uk-gateway/kustomize/base/securebanking/?ref=302-remove-kustomize-from-gateway-repo
 
 patchesStrategicMerge:
   - configmap.yaml
